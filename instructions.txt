@@ -1,0 +1,23 @@
+1. Verify Hostname Resolution
+Run the following commands to check if pes2ug22cs647 resolves correctly:
+
+bash
+Copy code
+ping pes2ug22cs647
+nslookup pes2ug22cs647
+If both commands fail:
+
+Add an entry in your /etc/hosts file to map the hostname to the broker's IP address.
+bash
+Copy code
+sudo nano /etc/hosts
+Add a line like:
+css
+Copy code
+<IP address of Kafka broker> pes2ug22cs647
+Replace <IP address of Kafka broker> with the actual IP.
+Save and exit the editor (Ctrl+O, then Ctrl+X).
+
+make changes to fluentd.conf file to change path of the log files where log is stored.
+
+git clone https://<your-token>@github.com/Cloud-Computing-Big-Data/EC-Team-8-distributed-logging-system

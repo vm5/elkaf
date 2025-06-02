@@ -1,0 +1,33 @@
+Query to get all logs:
+curl -X GET "http://localhost:9200/fluentd_logs_index/_search?pretty" -H 'Content-Type: application/json'
+
+Query to get registry log:
+curl -X GET "http://localhost:9200/fluentd_logs_index/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+  "_source": ["node_id", "status", "timestamp", "service_name"],
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "message_type.keyword": "REGISTRATION" } },
+        { "term": { "node_id": "1" } }
+      ]
+    }
+  },
+  "sort": [
+    { "timestamp": "desc" }
+  ],
+  "size": 1
+}'
+
+Query to get logs by node_id:
+curl -X GET "http://localhost:9200/fluentd_logs_index/_search?pretty" -H 'Content-Type: application/json' -d '
+{
+  "query": {
+    "term": {
+      "node_id": {
+        "value": "1"
+      }
+    }
+  }
+}'
+

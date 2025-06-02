@@ -1,0 +1,39 @@
+{"message_type": "REGISTRATION", "node_id": "f4683d24-68fe-4276-be72-57de3746d311", "service_name": "PaymentService", "status": "UP", "timestamp": "2024-11-18T15:01:15.302885"}
+{"node_id": "f4683d24-68fe-4276-be72-57de3746d311", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:01:15.303336"}
+{"log_id": "609e326e-b098-4cf7-afb6-a924a3a4da83", "node_id": "f4683d24-68fe-4276-be72-57de3746d311", "log_level": "INFO", "message_type": "LOG", "message": "Periodic INFO log generated.", "service_name": "PaymentService", "timestamp": "2024-11-18T15:01:15.303601"}
+{"node_id": "f4683d24-68fe-4276-be72-57de3746d311", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:01:20.313782"}
+{"log_id": "60d599b2-5809-46cd-87e6-cdf9ed9ee3ba", "node_id": "f4683d24-68fe-4276-be72-57de3746d311", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T15:01:25.314779"}
+{"node_id": "f4683d24-68fe-4276-be72-57de3746d311", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:01:25.320367"}
+{"node_id": "f4683d24-68fe-4276-be72-57de3746d311", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:01:30.326100"}
+{"log_id": "ce0af163-ec60-4580-97e6-cd09981a257d", "node_id": "f4683d24-68fe-4276-be72-57de3746d311", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T15:01:35.326764"}
+{"node_id": "f4683d24-68fe-4276-be72-57de3746d311", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:01:35.331315"}
+{"message_type": "REGISTRATION", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "service_name": "PaymentService", "status": "UP", "timestamp": "2024-11-18T15:49:40.836714"}
+{"log_id": "893ff5e6-19fb-484b-8886-c7796f2e80d1", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "WARN", "message_type": "LOG", "message": "Response time nearing threshold.", "service_name": "PaymentService", "response_time_ms": 2338, "threshold_limit_ms": 2000, "timestamp": "2024-11-18T15:49:40.849104"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:49:40.848663"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:49:45.853973"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:49:50.859057"}
+{"log_id": "39ea5b8f-c763-4099-8fa1-0dda988291c5", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T15:49:50.859895"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:49:55.864065"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:00.869105"}
+{"log_id": "385ef168-9660-4a15-a5ab-4b9b515feada", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "INFO", "message_type": "LOG", "message": "Periodic INFO log generated.", "service_name": "PaymentService", "timestamp": "2024-11-18T15:50:00.870169"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:05.874337"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:10.879385"}
+{"log_id": "6779fe84-507a-4b92-809b-49938402293a", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "INFO", "message_type": "LOG", "message": "Periodic INFO log generated.", "service_name": "PaymentService", "timestamp": "2024-11-18T15:50:10.880013"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:15.884103"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:20.888989"}
+{"log_id": "40dd036d-123f-4348-a429-66c8b4e64e5c", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "WARN", "message_type": "LOG", "message": "Response time nearing threshold.", "service_name": "PaymentService", "response_time_ms": 2302, "threshold_limit_ms": 2000, "timestamp": "2024-11-18T15:50:20.890566"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:25.894373"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:30.899462"}
+{"log_id": "1b8691c9-2245-44fd-8088-3f4d31315617", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T15:50:30.901002"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:35.904222"}
+{"node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T15:50:40.909295"}
+{"log_id": "6d3e38d9-014a-48e9-8520-92121ee49e73", "node_id": "6de16fba-1c41-4502-aed9-6f7eb36a611b", "log_level": "INFO", "message_type": "LOG", "message": "Periodic INFO log generated.", "service_name": "PaymentService", "timestamp": "2024-11-18T15:50:40.911365"}
+{"message_type": "REGISTRATION", "node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "service_name": "PaymentService", "status": "UP", "timestamp": "2024-11-18T16:12:15.089487"}
+{"node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T16:12:15.090400"}
+{"log_id": "67149247-934d-4643-bdfd-984a8b1a61de", "node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T16:12:15.090743"}
+{"node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T16:12:20.095171"}
+{"node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T16:12:25.100178"}
+{"log_id": "f3bf0886-bb8a-4c05-b548-c2add07a9a25", "node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "log_level": "ERROR", "message_type": "LOG", "message": "Simulated error occurred.", "service_name": "PaymentService", "error_details": {"error_code": "500", "error_message": "Internal Server Error"}, "timestamp": "2024-11-18T16:12:25.101263"}
+{"node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T16:12:30.105347"}
+{"log_id": "8827612c-efdc-415a-9643-c2c7798a5e06", "node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "log_level": "INFO", "message_type": "LOG", "message": "Periodic INFO log generated.", "service_name": "PaymentService", "timestamp": "2024-11-18T16:12:35.102584"}
+{"node_id": "4cbda576-bb61-43b6-ad20-7b988ee1d9b8", "message_type": "HEARTBEAT", "status": "UP", "timestamp": "2024-11-18T16:12:35.110233"}
